@@ -31,3 +31,17 @@ rtree.index.Index(bounds=[-307.87948664160047, -547.1638629074088, -686.19042088
 This is the default string representation of the rtree.index.Index object, which displays some information about the R-tree index, including the bounds of the index and the number of items stored in the tree.
 
 The bounds of the index are represented by the first six values in square brackets. They are the minimum and maximum values of x, y and z coordinates of the points stored in the R-tree. The size of the index is represented by the value after the comma, which is the number of items stored in the tree.
+
+# Part 3: Adding a Playable Character
+
+the location of this character needs to be constantly checked against the spatial partitioning system so that we only implement the partition that the player is currently located inside of at any given time
+
+# Part 4: Frontend
+
+## index.html
+
+## style.css
+
+## main.js
+
+# Part 5: Putting it all together
