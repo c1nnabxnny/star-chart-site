@@ -15,7 +15,7 @@ z = parallax * sin(dec)
 
 Next, the code finds all the points that do not have NaN values, and then writes the valid coordinate data to a file named coordinates.py using the open('coordinates.py', 'w') function. This is done by iterating through the valid indices, and writing each set of x, y, and z coordinates as a list in a string format to the file.
 
-# Part 2: Set Up A Spatial Partitioning System
+# Part 2: Spatial Partitioning System
 
 Spatial partitioning is a technique used to divide a large 3D environment into smaller regions, in order to reduce the number of objects that need to be rendered at any given time. In this section, we will take the data obtained from the previous section and 
 
